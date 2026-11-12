@@ -17,10 +17,10 @@ export default function Hero() {
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
           <span className="text-primary">Mouhammadou Oury</span> Diallo
         </h1>
-        <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground">Full Stack Developer</h2>
+        <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground">Senior Full Stack Software Engineer</h2>
         <p className="max-w-2xl mx-auto text-lg text-muted-foreground">
-          Building robust web applications with Next.js, React, Node.js and Fast API. Over 4 years of experience
-          delivering clean, efficient, and reliable code.
+          6+ years designing scalable SaaS platforms and complex data-driven systems — fintech, geospatial
+          applications, enterprise automation, and national-scale public service platforms.
         </p>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <Button asChild size="lg">
@@ -32,12 +32,12 @@ export default function Hero() {
         </div>
         <div className="flex justify-center gap-6 pt-6">
           <Button variant="ghost" size="icon" asChild>
-            <Link href="https://github.com" target="_blank" aria-label="GitHub">
+            <Link href="https://github.com/MouhammadouOD" target="_blank" aria-label="GitHub">
               <Github className="h-6 w-6" />
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/in/mouhammadouod/" target="_blank" aria-label="LinkedIn">
               <Linkedin className="h-6 w-6" />
             </Link>
           </Button>
@@ -63,4 +63,3 @@ export default function Hero() {
     </section>
   )
 }
-

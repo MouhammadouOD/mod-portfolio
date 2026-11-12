@@ -25,6 +25,22 @@ export default function Education() {
             <CardHeader className="flex flex-row items-start gap-4">
               <GraduationCap className="w-8 h-8 text-primary mt-1" />
               <div>
+                <CardTitle>Master, Computer Science</CardTitle>
+                <CardDescription>GoMyCode School of Technology (WOOLF accreditation) — Online</CardDescription>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="flex justify-between">
+                <span className="font-medium">GoMyCode School of Technology</span>
+                <Badge variant="outline">2025</Badge>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader className="flex flex-row items-start gap-4">
+              <GraduationCap className="w-8 h-8 text-primary mt-1" />
+              <div>
                 <CardTitle>University Diploma of Technology</CardTitle>
                 <CardDescription>Computer Engineering</CardDescription>
               </div>
@@ -69,22 +85,33 @@ export default function Education() {
             <CardHeader className="flex flex-row items-start gap-4">
               <Award className="w-8 h-8 text-primary mt-1" />
               <div>
-                <CardTitle>FULLSTACK MERN</CardTitle>
-                <CardDescription>Professional Certification</CardDescription>
+                <CardTitle>Certifications</CardTitle>
+                <CardDescription>GoMyCode / Coursera</CardDescription>
               </div>
             </CardHeader>
             <CardContent>
-              <div className="space-y-2">
-                <div className="flex justify-between">
-                  <span className="font-medium">GOMYCODE</span>
+              <ul className="space-y-2">
+                <li className="flex justify-between">
+                  <span>Fullstack MERN</span>
                   <Badge variant="outline">2021</Badge>
-                </div>
-                <div className="flex mt-2">
-                  <a href="#" className="text-primary hover:underline">
-                    View Certificate
-                  </a>
-                </div>
-              </div>
+                </li>
+                <li className="flex justify-between">
+                  <span>Introduction to Data Engineering</span>
+                  <Badge variant="outline">2024</Badge>
+                </li>
+                <li className="flex justify-between">
+                  <span>Introduction to DevOps</span>
+                  <Badge variant="outline">2024</Badge>
+                </li>
+                <li className="flex justify-between">
+                  <span>Python for Data Science, AI &amp; Development</span>
+                  <Badge variant="outline">2025</Badge>
+                </li>
+                <li className="flex justify-between">
+                  <span>Introduction to Cloud Computing</span>
+                  <Badge variant="outline">2025</Badge>
+                </li>
+              </ul>
             </CardContent>
           </Card>
         </div>
@@ -92,4 +119,3 @@ export default function Education() {
     </section>
   )
 }
-

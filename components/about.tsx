@@ -23,15 +23,18 @@ export default function About() {
           <Card className="md:col-span-2">
             <CardContent className="pt-6">
               <p className="text-lg leading-relaxed">
-                Talented Full Stack Developer with over 4 years of experience specializing in building robust web
-                applications using Next.js, React, Node.js and Fast API. Proven track record of delivering clean,
-                efficient, and reliable code tailored to meet project requirements. Adept in modern software development
-                trends and methodologies and committed to continuous learning and improvement.
+                Senior Full Stack Software Engineer with 6+ years of experience designing scalable SaaS platforms and
+                complex data-driven systems, particularly in fintech, geospatial applications, enterprise automation,
+                and national-scale public service platforms.
               </p>
               <p className="text-lg leading-relaxed mt-4">
-                I enjoy working on challenging projects that push me to learn new technologies and improve my skills. My
-                experience spans from frontend development with React and Next.js to backend systems with Node.js,
-                NestJS, and FastAPI, along with database management using MongoDB, PostgreSQL, and more.
+                Proven expertise in Java (Spring Boot), Node.js, Python (FastAPI), React, Next.js, React Native, and
+                Flutter. Experienced in leading technical strategy as co-CTO, implementing agile methodologies,
+                containerization (Docker), and AI integration.
+              </p>
+              <p className="text-lg leading-relaxed mt-4">
+                Strong track record of delivering production-grade systems from concept to deployment, modernizing
+                legacy platforms, and improving team productivity across African and European tech ecosystems.
               </p>
             </CardContent>
           </Card>
@@ -44,7 +47,7 @@ export default function About() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="text-primary h-5 w-5" />
-                <span>+221 76 271 4888</span>
+                <span>+221 77 280 62 46</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="text-primary h-5 w-5" />
@@ -56,19 +59,19 @@ export default function About() {
                 <ul className="space-y-2">
                   <li className="flex justify-between">
                     <span>Wolof</span>
-                    <span className="text-muted-foreground">First Language</span>
+                    <span className="text-muted-foreground">Native</span>
                   </li>
                   <li className="flex justify-between">
                     <span>French</span>
-                    <span className="text-muted-foreground">Proficient</span>
+                    <span className="text-muted-foreground">Professional</span>
                   </li>
                   <li className="flex justify-between">
                     <span>English</span>
-                    <span className="text-muted-foreground">B1</span>
+                    <span className="text-muted-foreground">Professional Working Proficiency</span>
                   </li>
                   <li className="flex justify-between">
                     <span>Arabic</span>
-                    <span className="text-muted-foreground">Elementary</span>
+                    <span className="text-muted-foreground">Basic</span>
                   </li>
                 </ul>
               </div>
@@ -79,4 +82,3 @@ export default function About() {
     </section>
   )
 }
-
